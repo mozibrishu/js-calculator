@@ -1,5 +1,5 @@
 .mainSection{
-    background-color: aqua;
+    background-color: teal;
     height: 600px;
     border-radius: 20px;
     margin-top: 2%;
@@ -27,7 +27,6 @@
     background-color: lightsteelblue;
 }
 .calculateBox{
-    border: 2px solid whitesmoke;
     height: 100%;
     padding: 1%;
     padding-bottom: 0px;
