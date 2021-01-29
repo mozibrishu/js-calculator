@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="imagesAndIcons/Calculator-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -19,36 +20,36 @@
             <div class="btnArea d-flex align-items-center row">
                 <div class="perRow row">
                     <div class="col d-flex justify-content-evenly">
-                        <button class="calcBtn btn btn-light">7</button>
-                        <button class="calcBtn btn btn-light">8</button>
-                        <button class="calcBtn btn btn-light">9</button>
-                        <button class="calcBtn btn btn-light">+</button>
+                        <button onclick="digitHandler('7')" class="calcBtn btn btn-light">7</button>
+                        <button onclick="digitHandler('8')" class="calcBtn btn btn-light">8</button>
+                        <button onclick="digitHandler('9')" class="calcBtn btn btn-light">9</button>
+                        <button onclick="operatorHandler('+')" class="calcBtn btn btn-light">+</button>
                         <button class="calcBtn btn btn-light">Clr</button>
                     </div>
                 </div>
                 <div class="perRow row">
                     <div class="col d-flex justify-content-evenly">
-                        <button class="calcBtn btn btn-light">4</button>
-                        <button class="calcBtn btn btn-light">5</button>
-                        <button class="calcBtn btn btn-light">6</button>
-                        <button class="calcBtn btn btn-light">-</button>
+                        <button onclick="digitHandler('4')" class="calcBtn btn btn-light">4</button>
+                        <button onclick="digitHandler('5')" class="calcBtn btn btn-light">5</button>
+                        <button onclick="digitHandler('6')" class="calcBtn btn btn-light">6</button>
+                        <button onclick="operatorHandler('-')" class="calcBtn btn btn-light">-</button>
                         <button class="calcBtn btn btn-light">Del</button>
                     </div>
                 </div>
                 <div class="perRow row">
                     <div class="col d-flex justify-content-evenly">
-                        <button class="calcBtn btn btn-light">1</button>
-                        <button class="calcBtn btn btn-light">2</button>
-                        <button class="calcBtn btn btn-light">3</button>
+                        <button onclick="digitHandler('1')" class="calcBtn btn btn-light">1</button>
+                        <button onclick="digitHandler('2')" class="calcBtn btn btn-light">2</button>
+                        <button onclick="digitHandler('3')" class="calcBtn btn btn-light">3</button>
                         <button class="calcBtn btn btn-light">*</button>
                         <button class="calcBtn btn btn-light">**</button>
                     </div>
                 </div>
                 <div class="perRow row">
                     <div class="col d-flex justify-content-evenly">
-                        <button class="calcBtn btn btn-light">.</button>
-                        <button class="calcBtn btn btn-light">0</button>
-                        <button class="calcBtn btn btn-light">=</button>
+                        <button onclick="dotHandler('.')" class="calcBtn btn btn-light">.</button>
+                        <button onclick="digitHandler('0')" class="calcBtn btn btn-light">0</button>
+                        <button onclick="equalHandler()" class="calcBtn btn btn-light">=</button>
                         <button class="calcBtn btn btn-light">/</button>
                         <button class="calcBtn btn btn-light">Mod</button>
                     </div>
