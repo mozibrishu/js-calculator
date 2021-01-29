@@ -1,0 +1,65 @@
+.mainSection{
+    background-color: aqua;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 2%;
+    border: 2px solid whitesmoke;
+}
+
+.calculator{
+    background-color: wheat;
+    width: 95%;
+    height: 90%;
+    margin: 0px auto;
+    border-radius: 20px;
+    margin-top: 3%;
+    border: 2px solid whitesmoke;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.calculationArea{
+    width: 95%;
+    height: 15%;
+    margin: 0px auto;
+    border: 2px solid whitesmoke;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+}
+.calculateBox{
+    border: 2px solid whitesmoke;
+    height: 100%;
+    padding: 1%;
+    padding-bottom: 0px;
+    padding-top: 1.3%;
+}
+#display{
+    font-size: 270%;
+    font-weight: 700;
+}
+
+.btnArea{
+    width: 95%;
+    margin: 0px auto;
+    border: 2px solid whitesmoke;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+    height: 74%;
+}
+
+.perRow{
+    margin: auto;
+}
+
+.calcBtn{
+    background-color: bisque;
+    width: 17%;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 1%;
+    font-size: 150%;
+    font-weight: 700;
+    text-align: center;
+}
